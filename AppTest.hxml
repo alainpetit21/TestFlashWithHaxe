@@ -1,0 +1,28 @@
+##########
+#For Flash
+--flash-strict
+-swf9 AppTest.swf
+-swf-header 640:480:30:FFFFFF
+-swf-version 10
+-main AppTest
+-lib physaxe
+
+##Debug
+-D _DEBUG
+-debug
+##Release
+#-D NDEBUG
+#--no-traces
+
+
+#########
+#For NeKo
+#--next
+#-neko AppTest.n
+#-main AppTest
+##Debug
+#-D _DEBUG
+#-debug
+##Release
+##-D NDEBUG
+##--no-traces
